@@ -1,13 +1,36 @@
 #home{
-    background-color: #ffc107;
+   
     color: white;
 }
 
 .caixa{
-    padding: 60px 0px;
+   
     border-bottom:1px solid #e5e5e5 ;
 }
 
 footer p a {
     margin: 5px 15px;
+}
+
+.fundo{
+background: rgb(255,0,168);
+background: linear-gradient(110deg, rgba(255,0,168,0.773546918767507) 0%, rgba(175,0,175,1) 26%);
+}
+
+#buttonred{
+    background-color: rgb(206, 87, 132);
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(133, 4, 90);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+#pergunta{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

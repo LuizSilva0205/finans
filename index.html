@@ -17,12 +17,12 @@
     <header>
 
 
-        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light shadow p-3">
 
         <div class="container">
 
             <a href="#" class="navbar-brand">
-                <img src="img/logo.png" alt="" width="142">
+                <img src="img/logo_preta.png" alt=""  width="142">
             </a>
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -48,7 +48,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="btn btn-outline-light ml-4">Entrar</a>
+                        <a href="" class="btn btn-outline-dark ml-4">Entrar</a>
                     </li>
 
                     
@@ -61,16 +61,37 @@
 
     </header>
 
-    <section id="home">
+    <div class="fundo mt-3 pb-1 mb-1 text-light p-2">
+        <p>Início›Empréstimo Consignado INSS</p>
+    </div>
+
+    <section id="home" class="fundo">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex">
                     <div class="align-self-center">
-                        <h1 class="display-4">Suas contas, descompicadas    
+                        <h1 class="display-5">Empréstimo Consignado
+                            Online e rápido   
                         </h1>
 
                         <p>
-                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+                            <p>
+                                <a href="" class="btn text-light" style="font-size: 20px;">
+                                    <i class="fa-solid fa-lock" style="color: #ffffff;"></i> Contratação segura e ágil.
+                                </a>
+                            </p>
+
+                            <p>
+                                <a href="" class="btn text-light " style="font-size: 20px;">
+                                    <i class="fa-solid fa-heart" style="color: #ffffff;"></i> Muito mais transparência em todo o processo.
+                                </a>
+                            </p>
+
+                            <p>
+                                <a href="" class="btn text-light"  style="font-size: 20px;">
+                                    <i class="fa-solid fa-handshake-simple" style="color: #ffffff;"></i> Atendimento humanizado.
+                                </a>
+                            </p>
                         </p>
 
                         <form class="mt-4 mb-4">
@@ -78,22 +99,11 @@
 
                                 <input type="text" placeholder="Seu E-mail" class="form-control">
                                 <div class="input-group-append">
-                                    <button class="btn btn-primary">Cadastre-se</button>
+                                    <button class="btn text-light border" style="background-color: rgba(175,0,175,1);">Cadastre-se</button>
                                 </div>
                             </div>
                         </form>
 
-                        <p>Disponivel para
-                            <a href="" class="btn btn-outline-light">
-                                <i class="fa-brands fa-android fa-lg"></i>
-                                
-                            </a>
-
-                            <a href="" class="btn btn-outline-light">
-                                <i class="fa-brands fa-apple fa-lg"></i>  
-                            </a>
-                            
-                        </p>
                     </div>
                 </div>
 
@@ -109,23 +119,55 @@
     <section class="caixa">
         <div class="container">
             
-            <div class="row">
+            <p class="text-center m-3 mt-5">
+                <a id="buttonred" href="" >Nossos Clientes</a>
+            </p>
 
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Saiba para aonde vai o seu dinheiro!</h2>
+            <p id="pergunta" class="text-center">
+                A meutudo é a melhor empresa
+                <br>de crédito consignado?
+            </p>
 
-                        <p>
-                            Com o Finans, você categoriza todos os seus lançamentos.Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.
-                        </p>
+            <p class="text-center" > <strong>Veja algumas opniôes de alguns de nossos clientes:</strong></p>
 
-                        <a href="" class="btn btn-primary">Veja mais</a>
+            <div id="carousel-ini" class="carousel" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div >
+                            <p class="text-center">Teste</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div >
+                            <p class="text-center">Teste1</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div >
+                            <p class="text-center">Teste2</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div >
+                            <p class="text-center">Teste3</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <img src="img/saiba.png" class="img-fluid" alt="">
-                </div>
+                <!--Controles-->
+
+                <a href="#carousel-ini" class="carousel-control-prev" style="color: black;" data-slide="prev">
+                    <i class="fas fa-angle-left fa-3x"></i>
+                </a>
+    
+                <a href="#carousel-ini" class="carousel-control-next" style="color: black;" data-slide="next">
+                    <i class="fas fa-angle-right fa-3x"></i>
+                </a>
             </div>
 
         </div>
