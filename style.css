@@ -1,7 +1,4 @@
-#home{
-   
-    color: white;
-}
+
 
 .caixa{
     margin: 10px 0px 10px 0px;
@@ -61,15 +58,15 @@ align-items: center;
 }
 
 .carousel-item{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
    
 }
 
 
 
 #tabela{
-    margin: 10px 0px 10px 0px;
+   
     background-color: rgba(175, 175, 175, 0.144);
 }
 
@@ -93,4 +90,32 @@ align-items: center;
 #icon-beneficios{
     margin-top: 22px;
     margin-bottom: 22px;
+}
+
+.baloes{
+    background-color: #d31995; 
+    border: 2px solid #be2745;
+    border-radius: 20px;
+    padding: 3px;
+    margin-bottom: 5px;
+    display: flexbox;
+}
+
+.baloes>h3{
+    color: #fc94a9;
+}
+.baloes>h4{
+    color: white;
+}
+.baloes>p{
+    color: white;
+}
+
+@media(max-width:1200px){
+    #video{
+      
+        width: 100%;
+        height: 500px;
+        padding-top: 120px;
+    }
 }
