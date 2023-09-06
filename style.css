@@ -147,6 +147,8 @@ align-items: center;
     body{
         width: 361px;
     }
+
+   
     #titulo{
         text-overflow: clip;
         color: white;
