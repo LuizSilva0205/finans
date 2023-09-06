@@ -4,8 +4,9 @@
 }
 
 .caixa{
-   
-    border-bottom:1px solid #e5e5e5 ;
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(175, 175, 175, 0.144);
+
 }
 
 footer p a {
@@ -17,7 +18,7 @@ background: rgb(255,0,168);
 background: linear-gradient(110deg, rgba(255,0,168,0.773546918767507) 0%, rgba(175,0,175,1) 26%);
 }
 
-#buttonred{
+.buttonred{
     background-color: rgb(206, 87, 132);
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,8 +30,67 @@ background: linear-gradient(110deg, rgba(255,0,168,0.773546918767507) 0%, rgba(1
     
 }
 
+.buttonred:hover{
+    background-color: rgb(206, 87, 132);
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
 #pergunta{
     font-size: 40px;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+#opniao{
+font-weight: bold;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.carousel-item{
+    padding-left: 25%;
+    padding-right: 25%;
+   
+}
+
+
+
+#tabela{
+    margin: 10px 0px 10px 0px;
+    background-color: rgba(175, 175, 175, 0.144);
+}
+
+#link:hover{
+
+    border-bottom: 2px solid rgba(175,0,175,1);
+    border-top: 2px solid rgba(175,0,175,1);
+}
+
+#link-entrar{
+    background-color: rgba(175,0,175,1);
+    color: white;
+}
+
+#texto-tabela{
+    padding-left: 60px;
+    padding-top: 90px;
+    
+}
+
+#icon-beneficios{
+    margin-top: 22px;
+    margin-bottom: 22px;
 }

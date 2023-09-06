@@ -14,7 +14,7 @@
   </head>
   <body>
 
-    <header>
+    <header class="fixed-top">
 
 
         <nav class="navbar navbar-expand-sm navbar-light bg-light shadow p-3">
@@ -32,23 +32,23 @@
             <div class="collapse navbar-collapse" id="nav-principal">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="" class="nav-link ">Home</a>
+                        <a href="" class="nav-link " id="link">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="nav-link ">Recursos</a>
+                        <a href="" class="nav-link " id="link">Recursos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="nav-link ">Benefícios</a>
+                        <a href="" class="nav-link " id="link">Benefícios</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="nav-link ">Preços</a>
+                        <a href="" class="nav-link " id="link">Preços</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="" class="btn btn-outline-dark ml-4">Entrar</a>
+                        <a href="" class="btn btn-outline-light ml-4" id="link-entrar">Entrar</a>
                     </li>
 
                     
@@ -115,48 +115,56 @@
     </section>
 
 
-
+<!--Seção do Carrosel-->
     <section class="caixa">
-        <div class="container">
+        <div class="container mb-5">
             
             <p class="text-center m-3 mt-5">
-                <a id="buttonred" href="" >Nossos Clientes</a>
+                <a class="buttonred" href="" >Nossos Clientes</a>
             </p>
 
             <p id="pergunta" class="text-center">
-                A meutudo é a melhor empresa
+                A Finans é a melhor empresa
                 <br>de crédito consignado?
             </p>
 
-            <p class="text-center" > <strong>Veja algumas opniôes de alguns de nossos clientes:</strong></p>
+            <p class="text-center mb-4" > <strong>Veja algumas opniões de alguns de nossos clientes:</strong></p>
 
             <div id="carousel-ini" class="carousel" data-ride="carousel">
 
-                <div class="carousel-inner">
+                <div class="carousel-inner border-bottom border-danger border-top">
+                    
 
-                    <div class="carousel-item active">
-                        <div >
-                            <p class="text-center">Teste</p>
-                        </div>
+                    <div class="carousel-item  active">
+                        
+                        <p class=" text-center" id="opniao" >
+                            <i class="fa-solid fa-quote-left fa-xl" style="color: #d6516c;"></i> "Precisei de dinheiro rápido para cobrir despesas inesperadas na faculdade. O site de consignado me ajudou a conseguir um empréstimo com taxas acessíveis e pagamento flexível. Fiquei aliviado."
+                        </p>
+                        <p class="text-center">Lucas, 28 anos, Estudante. </p>
                     </div>
 
-                    <div class="carousel-item ">
-                        <div >
-                            <p class="text-center">Teste1</p>
-                        </div>
+                    <div class="carousel-item " >
+                        <p class="text-center" id="opniao">
+                            <i class="fa-solid fa-quote-left fa-xl" style="color: #d6516c;"></i> " Como independência, minha renda varia. O site de consignado me permitiu obter um empréstimo com condições que se encaixassem no meu orçamento. Ajuda nas épocas mais flexíveis."
+                        </p>
+                        <p class="text-center">Isabela, 40 anos, Autônoma. </p>
                     </div>
 
-                    <div class="carousel-item ">
-                        <div >
-                            <p class="text-center">Teste2</p>
-                        </div>
+                    <div class="carousel-item" >
+                        <p class="text-center" id="opniao">
+                            <i class="fa-solid fa-quote-left fa-xl" style="color: #d6516c;"></i> " Como economizar, às vezes as contas pesam. O site de consignado tornou fácil pegar empréstimos com desconto em folha, o que me deu tranquilidade financeira."
+                        </p>
+                        <p class="text-center">Pedro, 50 anos, Aposentado. </p>
                     </div>
 
-                    <div class="carousel-item ">
-                        <div >
-                            <p class="text-center">Teste3</p>
-                        </div>
+                    <div class="carousel-item  ">
+                        <p class=" text-center" id="opniao">
+                            <i class="fa-solid fa-quote-left fa-xl" style="color: #d6516c;"></i> " Quando comecei meu negócio, precisei de capital. O site de consignado me deu a oportunidade de obter um empréstimo e investir no crescimento da minha empresa. Foi uma virada de jogo."
+                        </p>
+                        <p class="text-center">Camila, 33 anos, Empreendedora. </p>
                     </div>
+
+                    
                 </div>
 
                 <!--Controles-->
@@ -172,97 +180,187 @@
 
         </div>
     </section>
+<!--Seção do Carrosel-->
 
-    <section class="caixa">
-        <div class="container">
+
+<!--Seção Tabela-->
+
+<section id="tabela">
+    <p class="text-center mt-5">
+        <a class="buttonred" href="" >Comparativos</a>
+    </p>
+    <div class="row">
+
+        <div class="col col-md-6">
             
-            <div class="row">
-
-                <div class="col-md-6">
-                    <img src="img/juros.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-md-6 d-flex">
-                    <div class="align-self-center">
-                        <h2>Pare de pagar juros e economize!</h2>
-
-                        <p>
-                            Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de conta a pagar e a receber!
-                        </p>
-
-                        <a href="" class="btn btn-primary">Veja mais</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="caixa">
-        <div class="container">
-            
-            <div class="row">
-
-                <div class="col-md-4">
-                   <img src="img/facil.png" alt="" class="img-fluid">
-                   <h4>Fácil de usar!</h4>
-                   <p>O Finans vai além do básico e permite que você faca controles incríveis, essenciais para as suas financias. simples como tem que ser!</p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="img/economize.png" alt="" class="img-fluid">
-                   <h4>Economize seu tempo!</h4>
-                   <p>Tempo é dineiro! Em segundos, voc~e tem tudo sob controle e aproveite seu tempo com o que realmente importa para você!</p>
-                </div>
-
-                <div class="col-md-4">
-                    <img src="img/suporte.png" alt="" class="img-fluid">
-                   <h4>Suporte amigo!</h4>
-                   <p>Duvidas?Perguntas? Nosso suporte super legal ajuda você!A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!</p>
-                </div>
-
-                </div>
-
+            <h1 id="texto-tabela" class="display-5 mt-5">
               
-                </div>       
-    </section>
+                <p>Empréstimo consignado <br> com as melhores taxas? </p> 
+            </h1>
 
+            <p style="padding-left: 60px; font-weight: 200; font-size: 30px;">
+                Venha conferir o comparativo das taxas:<i class="fa-solid fa-circle-arrow-right fa-2xl" style="color: #1d8500; margin-left: 150px; size: 120px;"></i>
+            </p>
 
-    <footer class="mt-4 mb-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>
-                        <a href="">Home</a>
-                        <a href="">Recursos</a>
-                        <a href="">Benefícios</a>
-                        <a href="">Preços</a>
-                    </p>
-                </div>
-                <div class="col-md-4 d-flex justify-content-end">
-                    <a href="" class="btn btn-outline-dark">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-
-                    <a href="" class="btn btn-outline-dark ml-2">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-
-                    <a href="" class="btn btn-outline-dark ml-2">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                    <a href="" class="btn btn-outline-dark ml-2">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </div>
-            </div>
+            
         </div>
 
-    </footer>
+
+        <div class="col col-md-6" style="margin-top: 50px; margin-bottom: 50px; border-left: #d6516c;">
+            <ul class="list-group list-group-flush w-50 m-auto" >
+                <li class="list-group-item bg-success text-center "><h4 class="fw-bold">Comparativo de taxas</h4></li>
+
+                <li class="list-group-item pt-0 pb-0 "><h4 class="fw-bold">FINANS</h4>
+                    <h5 class="fw-bold text-danger">1,70% a.m</h5>
+                </li>
+
+                <li class="list-group-item pt-0 pb-0" style="background-color: rgba(175, 175, 175, 0.144)">Outros consignados
+                    <h5 class="fw-bold">1,91% a.m</h5>
+                </li>
+
+                <li class="list-group-item  pt-0 pb-0">Pix parcelado
+                    <h5 class="fw-bold">3,00% a.m</h5>
+                </li>
+
+                <li class="list-group-item pt-0 pb-0" style="background-color: rgba(175, 175, 175, 0.144)">Crédito pessoal
+                    <h5 class="fw-bold">6,80% a.m</h5>
+                </li>
+
+                <li class="list-group-item pt-0 pb-0">Cheque especial
+                    <h5 class="fw-bold">8,00% a.m</h5>
+                </li>
+
+                <li class="list-group-item" style="background-color: rgba(175, 175, 175, 0.144)">Cartão de crédito
+                    <h5 class="fw-bold">12,00% a.m</h5>
+                </li>
+
+                <li class="list-group-item bg-success text-center"><h5 class="fw-semibold">
+                    Os valores aqui presentes são uma estimativa com base na média do mercado.
+                    </li>
+                </h5>
+              </ul>
+
+    </div>
+
+</section>
+
+<!--Seção Tabela-->
+
+
+<!--Seção beneficios-->
+
+<section class="caixa">
+    <div class="container">
+        
+        <p class="text-center m-3 mt-5">
+            <a class="buttonred" href="" >Benefícios</a>
+        </p>
+
+        <p id="pergunta" class="text-center">
+            Fique por dentro de <br>todos os nossos benefícios.
+        </p>
+
+        <div class="row">
+
+            <div class="col col-md-6">
+                <div id="icon-beneficios">
+                    
+                    <h4> <i class="fa-solid fa-mobile-screen-button fa-2xl" style="color: #ff007b; padding-right: 5px;"></i> Facilidade na negociação</h4>
+                    <p class="ml-5">Contrate seu empréstimo consignado 100% online, sem filas e do conforto de casa.</p>
+                </div>
+
+                <div id="icon-beneficios">
+                    <h4><i class="fa-solid fa-coins fa-2xl" style="color: #ff007b;padding-right: 5px"></i>Seu dinheiro valorizado</h4>
+                    <p class="ml-5">Taxa de 1,70%: sua parcela ainda mais baixa.</p>
+                    
+                </div>
+
+                
+                <div id="icon-beneficios">
+                    <h4><i class="fa-regular fa-heart fa-2xl" style="color: #ff007b;padding-right: 5px;"></i>Transparência</h4>
+                    <p class="ml-5">Sem letras miúdas ou surpresas: você acompanha toda a contratação do início ao fim.</p>
+                    
+                </div>
+
+                <div id="icon-beneficios">
+                    <h4><i class="fa-solid fa-handshake-simple fa-2xl" style="color: #fd007b;padding-right: 5px"></i>Feito de pessoas, para pessoas</h4>
+                    <p class="ml-5">Atendimento humano e consciente, com equipe pronta para te ajudar a alcançar seus objetivos.</p>
+                    
+                </div>
+
+                
+                <div id="icon-beneficios">
+                    <p class="rounded p-3" style="background-color: #90ff71b9;" ><i class="fa-solid fa-piggy-bank fa-2xl" style="color: #29a706;padding-right: 5px;"></i>Junte-se às pessoas que também escolheram pagar menos no consignado:</p>
+                    
+                </div>
+
+                <p class="text-center m-3 mt-5">
+                    <a class="buttonred" href="" >Entre em contato agora!</a>
+                </p>
+
+                
+            </div>
+    
+    
+            <div class="col col-md-6">
+                
+                <img src="img/mulher idosa.jpg" alt="">
+            </div>
+                
+    
+        </div>
+
+
+</section>  
+<!--Seção beneficios-->
 
 
 
+
+
+<!--Quem pode cadastrar-->
+<section class="caixa">
+    <div class="container">
+        
+        <p class="text-center m-3 mt-5">
+            <a class="buttonred" href="" >Condições</a>
+        </p>
+
+        <p id="pergunta" class="text-center">
+            Confira se você pode fazer se
+            <br><strong>empréstimo consignado INSS:</strong>
+        </p>
+
+        <h3 class="mt-5"><i class="fa-regular fa-face-smile fa-lg" style="color: #fd007b; padding-right: 15px;"></i>Quem pode fazer empréstimo consignado?</h3>
+        <p class="mb-5">Aposentados e pensionistas do INSS, inclusive os negativados.</p>
+
+        <h3 class="mb-3 "><i class="fa-regular fa-face-meh fa-lg" style="color: #fd007b; padding-right: 15px;"></i>Quem não pode fazer empréstimo consignado?</h3>
+
+
+        <p><i class="fa-solid fa-circle-xmark" style="color: #000000;padding-right: 5px;"></i>Servidores públicos estaduais e municipais</p>
+        <p><i class="fa-solid fa-circle-xmark" style="color: #000000;padding-right: 5px;"></i>Aposentados e pensionistas inadimplentes no INSS</p>
+        <p><i class="fa-solid fa-circle-xmark" style="color: #000000;padding-right: 5px;"></i>Benefícios recebidos por terceiros</p>
+        <p><i class="fa-solid fa-circle-xmark" style="color: #000000;padding-right: 5px;"></i>Benefícios por invalidez</p>
+        <p><i class="fa-solid fa-circle-xmark" style="color: #000000;padding-right: 5px;"></i>Benefícios assistenciais como LOAS/BPC</p>
+        
+
+</section> 
+<!--Quem pode cadastrar-->
+    
+
+<footer>
+    
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark shadow p-3">
+
+        <div class="container">
+
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" alt=""  width="142">
+            </a>
+        </div>
+
+        </nav>
+</footer>
 
 
 
