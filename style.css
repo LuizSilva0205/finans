@@ -119,3 +119,14 @@ align-items: center;
         padding-top: 120px;
     }
 }
+
+@media(max-width:520px){
+   .text{
+    font-size: 0.8em;
+   }
+
+   #video{
+    visibility: hidden;
+}
+}
+
