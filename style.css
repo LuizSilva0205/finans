@@ -121,12 +121,20 @@ align-items: center;
 }
 
 @media(max-width:520px){
+
+    .tabela{
+        width: 100vw;
+    }
    .text{
     font-size: 0.8em;
    }
 
    #video{
     visibility: hidden;
+}
+
+#form{
+    width: 100%;
 }
 }
 
