@@ -137,35 +137,24 @@ align-items: center;
     visibility: hidden;
 }
 
-    #form{
-    width: 100%;
-    }
+.mulher{
+    width: 300px;
+}
 }
 
-@media(max-width:361px){
+@media(max-width:499px){
 
     body{
-        width: 361px;
+        width: 100%;
     }
 
-    .text{
-        color: white;
-    }
-
-   
-    #titulo{
-        text-overflow: clip;
-        color: white;
-        font-size: 1.8em;
-    }
+    
 
     #form{
         visibility: hidden;
     }
 
-    #barra_nav{
-        width: 300px;
-    }
+
 }
 
 
