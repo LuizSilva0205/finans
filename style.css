@@ -148,6 +148,10 @@ align-items: center;
         width: 361px;
     }
 
+    .text{
+        color: white;
+    }
+
    
     #titulo{
         text-overflow: clip;
