@@ -63,7 +63,9 @@ align-items: center;
    
 }
 
-
+#text2{
+    font-size: 20px;
+}
 
 #tabela{
    
@@ -162,7 +164,13 @@ align-items: center;
         visibility: hidden;
     }
 
+    .text{
+        font-size: 0.6em;
+       }
 
+    #text2{
+        font-size: 1.2em;
+     }
 }
 
 
