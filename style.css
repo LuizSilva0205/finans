@@ -148,6 +148,14 @@ align-items: center;
         width: 100%;
     }
 
+   #head{
+   max-width: 300px;
+   text-align: left;
+   }
+
+   .overflow{
+    max-width: 300px;
+   }
     
 
     #form{
